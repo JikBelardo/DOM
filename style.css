@@ -4,7 +4,6 @@
     align-items: center;
     margin-top: 25vh;
     background-color: rgb(161, 197, 197);
-    height: 100%;
 }
 .body {
     font-family: 'Helvetica';
@@ -32,4 +31,8 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  .form-group{
+    text-align: center;
+    margin-right: 65px;
   }
