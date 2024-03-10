@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    margin-top: 25vh;
+    background-color: rgb(161, 197, 197);
+    height: 100%;
+}
+.body {
+    font-family: 'Helvetica';
+  }
+.container button{
+    color: rgb(234, 230, 230);
+    background-color: rgb(80, 165, 191);
+}
+.card-header{
+    padding: 10px;
+    background-color: rgb(238, 230, 220);
+}
+.card-body{
+    padding: 40px;
+}
+.container.visible {
+    opacity: 1; 
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
